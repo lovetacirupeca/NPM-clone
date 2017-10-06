@@ -1,0 +1,297 @@
+/* General */
+* {
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+	padding: 0;
+  vertical-align: baseline;
+}
+body {
+  font-family: font-family: 'Open Sans', sans-serif !important;
+}
+
+/* Open ---> Barra sup */
+nav {
+  align-items: center;
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  font-weight: 300 !important;
+  font-size: 16px !important;
+  height: 40px;
+  margin: 0 -20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  padding: 1 0px;
+  text-decoration: none;
+}
+nav a:hover{
+  color: #fff;
+}
+.top-links {
+  display: inline-block;
+  float:right;
+  margin: 0 20px 0 0;
+  padding-right: 20px;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.top-left{
+  display: inline;
+  float:left;
+  padding-left: 25px;
+}
+.heart{
+  color: rgba(255,255,255,0.8);
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.acronym:hover{
+  color: #fff;
+}
+/* Close ---> Barra sup */
+
+/* Open ---> Cabecera */
+header {
+  background-color: #1B5A78;
+  display: inline-block;
+}
+.barra-sup {
+  display: flex;
+  height: 50px;
+  padding: 20px 25px;
+}
+.logonpm {
+  float: left;
+  height: 50px;
+  padding-right: 20px;
+  width: 125px;
+}
+.sitesearch input{
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #6d7986;
+  display: inline-block;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  height: 50px;
+  min-width: 750px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  width: 100%;
+}
+.button_search {
+  background: #1A465E;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #6d7986;
+  height: 50px;
+}
+.sing_log {
+  align-items: center;
+  color: rgba(255,255,255,0.8);
+  display:inline-flex;
+  height: 50px;
+  float: right;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  padding-left: 20px;
+}
+.sing_log a{
+  text-decoration: none;
+}
+.sing_log a:hover{
+  color: #fff;
+}
+.container{
+  background-image: url(images/city-scape.svg);
+  background-size: 100%;
+  color: #fff;
+  float:right;
+  margin: 0 auto;
+  padding: 150px;
+}
+.container-text{
+  float: left;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  width: 50%;
+}
+.container-text p{
+  padding-bottom: 20px;
+}
+h1 {
+  font-size: 50px !important;
+  font-weight: 400 !important;
+}
+.container_button{
+  background-color: #f09233;
+  border-radius: 20px;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  padding: 7px 26px 8px 26px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.container_button:hover{
+  background-color: #ed7d2f;
+}
+/* Close ---> Cabecera */
+
+/* Open ---> Primer panel */
+.collaboration{
+  align-items: center;
+  background-color: rgb(39, 53, 71);
+  display: inline-block;
+  margin: 0 auto;
+  padding: 120px;
+  width: 100%;
+}
+.collaboration_img{
+  float: left;
+  height: auto;
+  padding-right: 20px;
+  width: 50%;
+}
+.collaboration_txt{
+  color: #fff;
+  float: right;
+  padding-left: 70px;
+  width: 50%;
+}
+h2 {
+  font-size: 35px !important;
+  font-weight: 300 !important;
+  margin-bottom: 10px;
+}
+.collaboration_button{
+  background-color: rgb(203, 56, 55);
+  border-radius: 20px;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  padding: 7px 26px 8px 26px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.collaboration_button:hover{
+  background-color: #b02d30;
+}
+.collaboration_ul{
+  margin-bottom: 10.5px;
+}
+.collaboration_li{
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+.collaboration_p{
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  padding-top: 20px;
+}
+.collaboration_p a{
+  font-weight: 400 !important;
+  text-decoration: none;
+}
+.collaboration_p a:hover{
+  text-decoration:underline;
+}
+/* Close ---> Primer panel */
+
+/* Open ---> Segundo panel */
+.install{
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  background-position: top center;
+  color: white;
+  height: 500px;
+  margin: 0 auto;
+  padding-left: 120px;
+  padding-top: 50px;
+  position: relative;
+}
+.istall_text{
+  color: #fff;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  padding-bottom: 20px;
+  width: 35%;
+}
+.install_button{
+  background-color: #34495e;
+  border-radius: 20px;
+  float: left;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  padding: 7px 26px 8px 26px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.install_button:hover{
+  background-color: rgb(49, 68, 88);
+  -webkit-transition: all 0.3s ease;
+  -webkit-transition-timing-function: ease;
+}
+/* Close ---> Segundo panel */
+
+/* Open ---> Tercer panel */
+.what_can {
+  padding: 60px 20px;
+  text-align: center;
+}
+.what_can1 h2{
+  color: #373d48;
+  font-size: 35px !important;
+  font-weight: 700 !important;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.what_can1 p{
+  color: #6d7986;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.what_can2{
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.column{
+  margin-left: 70px;
+  padding: 20px;
+  text-align: center;
+  width: 25%;
+}
+.column p{
+  color: #6d7986;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  line-height: 1.35;
+}
+.column a{
+  color: #cb3837;
+  text-decoration: none;
+}
+.column a:hover{
+  text-decoration: underline;
+}
+h3 {
+  color: #373d48;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  line-height: 1.35;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* Close ---> Tercer panel */
+
+/* Descarga */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700')
